@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <nav class="nav">
+        <div class="nav-background">
+            <a href="#bar" class="nav-item">Home</a> 
+            <a href="#about" class="nav-item">About</a> 
+            <a href="#my-work" class="nav-item">My work</a> 
+            <a href="#contact" class="nav-item">Contact</a>
+            <a href="#content-container" id="content-container" class="nav-item show">Content</a>
+        </div>
+        <div class="mobile-container">
+
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+              <a href="#bar" class="active">Nick</a>
+              <div id="myLinks">
+                <a href="#about">About</a>
+                <a href="#my-work">My Work</a>
+                <a href="#content-container">Content</a>
+                <a href="#contact">Contact</a>
+              </div>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+            <!-- End smartphone / tablet look -->
+</div>
+    </nav>
+<div class="header-container">
+    <div id="bar" class="bar-group">
+        <div class="smiley-container">
+            <div class="procent-25">😠</div>
+            <div class="procent-25">☹️</div>
+            <div class="procent-25">🙂</div>
+            <div class="procent-25">😃</div>
+        </div>
+         <div class="slider-container">
+            <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+        </div>
+    </div>
+    <img class="picture-of-me" src="img/self.picture.png" alt="picture of me in cartoon">
+</div>
+</header>
+<main>
+    <div id="about" class="about">
+        <div class="about-left">
+            <p class="about-tekst">Software Developer</p>
+            <p class="about-tekst2">HTML, CSS and Java</p>
+            <p id="about-text1" class="about-text1 show">Hi my name is Nick Swanenberg I am 17 years old. Hard working & willing to learn new skills.</p>
+            <p id="about-text2" class="about-text2 show">Hi my name is Nick Swanenberg I am 17 years old. I love working on project to learn more about programming. I think noting is to hard there is always a way to achieve what you want. I am Hard working & willing to learn new skills trough out my journey.</p>
+            <p id="about-text3" class="about-text3 show">Hi my name is Nick Swanenberg I am 17 years old. I love working on project to learn more about programming. I think noting is to hard there is always a way to achieve what you want to do. I am Hard working & willing to learn new skills trough out my journey. I am not a great designer but, I enjoy making design’s even tough they are not the best. I am also a gaming & tech content creator if there is any interest for that. If you are interested contact me! </p>
+        </div>
+        <div class="about-right">
+            <div class="tags-tekst">
+                <p>Categories</p>
+            </div>
+            <div class="tags-container">
+                <div id="tags-HTML" class="tags color-light-red show2">HTML</div>
+                <div id="tags-CSS" class="tags color-light-blue show2">CSS</div>
+                <div id="tags-Java" class="tags color-light-orange show">Java</div>
+                <div id="tags-Creator" class="tags color-light-purple bigger-tag show">Creator</div>
+                <div id="tags-Design" class="tags color-yellow bigger-tag show">Design</div>
+            </div>
+        </div>
+    </div>
+    <div id="my-work" class="my-work">
+        <div class="my-work-text">My work</div>
+    </div>
+    <div class="my-work-component">
+        <div class="work-title">
+            <div class="title">Web</div>
+            <div class="title">Java</div>
+            <div id="my-work-title-content" class="title show">Content</div>
+        </div>
+        <div class="work-img-comp">
+            <img class="work-img" src="img/web.jpg" alt="Web-work">
+            <img class="work-img" src="img/java.jpg" alt="Java-work">
+            <img id="my-work-title-content-img" class="work-img show" src="img/content.jpg" alt="contentwork">
+        </div>
+    </div>
+    <div id="content-container" class="content-container show">
+        <div class="left-content">
+            <h1 class="content-header">Content Creator</h1>
+            <div class="line"></div>
+            <div class="content-text">I like to create content. That's why I have made it 
+                my hobby. I still have a lot to learn in that field. 
+                That's why I'm ready to do everything I can to get 
+                as far as possible.</div>
+        </div>
+        <div class="right-content">
+            <button class="content-button bold">Content 🖂</button>
+            <div class="icon-container">
+                <img class="socialmedia-icons" src="img/tiktok.png" alt="Tiktok">
+                <img class="socialmedia-icons" src="img/youtube.png" alt="Youtube">
+                <img class="socialmedia-icons" src="img/twitter.png" alt="Twitter">
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="contact-me-container">
+        <div class="left-contact">
+            <div class="left-text bold">Contact</div>
+            <div class="left-text">Want me for you're next project?</div>
+            <div class="left-text">send me a message if you want to</div>
+            <div class="left-text">work together.</div>
+            <div class="left-text e-mail bold">🖂 Nickswanenberg@gmail.com</div>
+        </div>
+        <div class="right-contact">
+            <form>
+                <div class="title-contact-container">
+                    <h1 class="right-text-title bold">Contact</h1>
+                </div>
+                <p class="right-text">Name</p>
+                <input type="text" class="contact-form long-contact" placeholder="Name">
+                <p class="right-text">E-mail</p>
+                <input type="text" class="contact-form long-contact" placeholder="E-mail">
+                <p class="right-text">Message</p>
+                <input type="text" class="contact-form big-contact" placeholder="Message">
+                <button class="contact-button">Send</button>
+            </form>
+        </div>
+    </div>
+</main>
+<footer>
+    <a href="https://www.flaticon.com/free-icons/twitter-social-badge" title="twitter social badge icons">Social badge icons created by riajulislam - Flaticon</a>
+</footer>
+<script src="js/main.js"></script>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 const rangeChecker = document.getElementById('myRange');
-var checker = 0;
+
 
 const slidePalooza = () => {
 

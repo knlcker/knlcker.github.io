@@ -24,7 +24,7 @@ const slidePalooza = () => {
     }
     else if(rangeChecker.value > 49){
         var about = document.getElementById('about-text2')
-        about.classList.add('show');
+        about.classList.toggle('show');
         var about = document.getElementById('tags-Java');
         about.classList.addEventListener('show');
         var about = document.getElementById('my-work-title-content');
@@ -41,4 +41,4 @@ const slidePalooza = () => {
 }
 
 
-rangeChecker.addEventListener('click', slidePalooza);
+rangeChecker.toggleEventListener('click', slidePalooza);
